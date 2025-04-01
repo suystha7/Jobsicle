@@ -8,7 +8,7 @@ const Hero = () => {
         <h1>Over 10,000+ jobs to apply</h1>
         <p>
           Your Next Big Career Move starts Right here - Explore the Best Job
-          here
+          here in Job portal
         </p>
         <div>
           <div>
