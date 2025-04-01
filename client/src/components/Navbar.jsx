@@ -13,7 +13,7 @@ const Navbar = () => {
         <img src={assets.logo} alt="" />
 
         {user ? (
-          <div className="flex gap-3">
+          <div className="flex gap-3 items-center">
             <Link to={"/applications"}>Applied Jobs</Link>
             <p>|</p>
             <p>Hi, {user.firstName + " " + user.lastName}</p>
