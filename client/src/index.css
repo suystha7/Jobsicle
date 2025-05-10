@@ -1,2 +1,30 @@
 @import "tailwindcss";
 
+/* Custom Colors as CSS Variables */
+:root {
+  --color-primary: #00b9b3;
+  --color-secondary: #f7b346;
+
+  --gradient-from: #00b9b3; 
+  --gradient-to: #f7b346;
+}
+ 
+body {
+  /* background-color: var(--color-primary); */
+  color: var(--color-secondary);
+}
+
+/* Example Custom Class Using Your Variables */
+.btn-primary {
+  @apply px-4 py-2 rounded text-white;
+  background-color: var(--color-primary);
+}
+
+.btn-secondary {
+  @apply px-4 py-2 rounded text-white;
+  background-color: var(--color-secondary);
+}
+
+bg-custom-gradient {
+    background: linear-gradient(to right, var(--gradient-from), var(--gradient-to));
+  }
